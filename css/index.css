@@ -269,6 +269,11 @@ header nav a {
   padding-right: 1%;
   padding-left: 0;
 }
+@media (max-width: 500px) {
+  .home .inverse-content {
+    padding-top: 3rem;
+  }
+}
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
@@ -293,4 +298,23 @@ header nav a {
   padding: 1.5rem;
   text-align: center;
   width: 85%;
+}
+@media (max-width: 500px) {
+  .home .content-pick {
+    flex-direction: column;
+    padding-bottom: 3rem;
+  }
+  .home .content-pick .destination {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  .home .content-pick .btn {
+    background-color: #17A2B8;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    width: 85%;
+  }
 }
