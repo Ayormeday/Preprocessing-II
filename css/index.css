@@ -214,6 +214,12 @@ header nav a {
     justify-content: space-between;
   }
 }
+.home .header-section .text-content {
+  padding-top: 2rem;
+}
+.home .header-section p {
+  padding-bottom: 2rem;
+}
 .home .header-section hr.dotted {
   border: none;
   border-top: 1px dashed grey;
@@ -236,6 +242,20 @@ header nav a {
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .content-section {
+    flex-direction: column;
+  }
+  .home .content-section .text-content {
+    width: 100%;
+  }
+  .home .content-section .img-content {
+    width: 100%;
+  }
+  .home .content-section .img-content img {
+    width: 100%;
+  }
 }
 .home .inverse-content {
   padding-bottom: 30px;
