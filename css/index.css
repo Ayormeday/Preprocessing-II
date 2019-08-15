@@ -225,3 +225,15 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+html {
+  font-size: 62.5%;
+}
+.container {
+  max-width: 80rem;
+  background-color: white;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
