@@ -5,7 +5,18 @@
     .flex-base(space-between);
     font-size: 2rem;
     padding: 2rem 0;
-  
+    
+    @media @mobile {
+      flex-direction:column;
+      h1 {
+        text-align: center;
+      }
+      nav {
+        text-align: center;
+        .flex-base(space-between)
+      }
+      
+    }
   }
 
   .content-section {
