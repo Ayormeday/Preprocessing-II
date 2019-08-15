@@ -168,15 +168,6 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-header {
-  display: flex;
-  justify-content: space-between;
-  font-size: 2rem;
-  padding: 2rem 0;
-}
-header p {
-  font-size: 2rem;
-}
 header nav {
   border: #C0C0C0;
 }
@@ -194,6 +185,12 @@ header nav a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  padding: 2rem 0;
 }
 .home .content-section {
   margin: 30px 0;
@@ -249,11 +246,11 @@ header nav a {
   text-align: center;
   width: 85%;
 }
-html {
-  font-size: 62.5%;
-}
 .container {
   max-width: 80rem;
   background-color: white;
   margin: 0 auto;
+}
+.footer {
+  background-color: #FFEBCD;
 }
