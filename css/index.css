@@ -201,6 +201,7 @@ header nav a {
   }
   .home header h1 {
     text-align: center;
+    padding-bottom: 2rem;
   }
   .home header nav {
     text-align: center;
